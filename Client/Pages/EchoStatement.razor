@@ -1,0 +1,64 @@
+﻿@page "/echo"
+
+<h1>Echo Statement</h1>
+
+<MudGrid>
+    <MudItem xs="12">
+        <MudTextField id="inputStatement" Label="Please enter your statement" @bind-Value="Echo.StatementContent" Variant="Variant.Text"></MudTextField>
+    </MudItem>
+    <MudItem xs="12">
+        <MudField Label="How do you want to echo your statement?"></MudField>
+    </MudItem>
+    <MudItem xs="12">
+        <MudGrid>
+            <MudItem xs="2">
+                <MudButton id="btnUppercase"
+                           Variant="Variant.Filled"
+                           Color="Color.Info"
+                           Size="Size.Large"
+                           OnClick="() => Echo.EchoUppercase()">
+                    In uppercase
+                </MudButton>
+            </MudItem>
+            <MudItem xs="2">
+                <MudButton id="btnLowercase"
+                           Variant="Variant.Filled"
+                           Color="Color.Info"
+                           Size="Size.Large"
+                           OnClick="() => Echo.EchoLowercase()">
+                    In lowercase
+                </MudButton>
+            </MudItem>
+            <MudItem xs="2">
+                <MudButton id="btnReverse"
+                           Variant="Variant.Filled"
+                           Color="Color.Info"
+                           Size="Size.Large"
+                           OnClick="() => Echo.EchoReverse()">
+                    In Reverse
+                </MudButton>
+            </MudItem>
+            <MudItem xs="2">
+                <MudButton id="btnTrim"
+                           Variant="Variant.Filled"
+                           Color="Color.Info"
+                           Size="Size.Large"
+                           OnClick="() => Echo.EchoNoSpaces()">
+                    Remove spaces
+                </MudButton>
+            </MudItem>
+            <MudItem xs="2">
+                <MudButton id="btnSplit"
+                           Variant="Variant.Filled"
+                           Color="Color.Info"
+                           Size="Size.Large"
+                           OnClick="() => Echo.EchoSplitCharacters()">
+                    Add spaces
+                </MudButton>
+            </MudItem>
+        </MudGrid>
+    </MudItem>
+    <MudItem xs="12">
+        <MudTextField id="resultEcho" Label="Echo!" Value="@Echo.EchoedStatement" Disabled="true"></MudTextField>
+    </MudItem>
+</MudGrid>

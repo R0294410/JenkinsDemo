@@ -1,0 +1,11 @@
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\bin\Debug\net7.0\JenkinsDemo.Data.deps.json
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\bin\Debug\net7.0\JenkinsDemo.Data.dll
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\bin\Debug\net7.0\JenkinsDemo.Data.pdb
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\JenkinsDemo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\JenkinsDemo.Data.AssemblyInfoInputs.cache
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\JenkinsDemo.Data.AssemblyInfo.cs
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\JenkinsDemo.Data.csproj.CoreCompileInputs.cache
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\JenkinsDemo.Data.dll
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\refint\JenkinsDemo.Data.dll
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\JenkinsDemo.Data.pdb
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\ref\JenkinsDemo.Data.dll

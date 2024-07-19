@@ -1,0 +1,32 @@
+﻿@page "/calc"
+<h1>Calculator</h1>
+
+<MudGrid>
+    <MudItem xs="12">
+        <MudGrid Justify="Justify.Center">
+            <MudItem xs="8">
+                <MudTextField id="displayCalculation" Label="Calculation: " Value="@Calc.DisplayedCalculation" Disabled="true" Variant="Variant.Text" />
+            </MudItem>
+            <MudItem xs="8">
+                <MudTextField id="calculationResult" Label="Result: " Value="@Calc.CalculationResult" Disabled="true" Variant="Variant.Text" />
+            </MudItem>
+            <MudItem xs="12">
+                <MudGrid Justify="Justify.Center" Spacing="4">
+                    @foreach (string buttonContent in Calc.CalcButtons)
+                    {
+                        <MudItem xs="3">
+                            <MudButton Variant="Variant.Filled"
+                                       id="@($"calcButton-{@buttonContent}")"
+                                       Class="blue lighten2"
+                                       FullWidth="true"
+                                       Style="min-height: 50px;"
+                                       OnClick="() => ProcessCalculatorFunctions(buttonContent)">
+                                @buttonContent
+                            </MudButton>
+                        </MudItem>
+                    }
+                </MudGrid>
+            </MudItem>
+        </MudGrid>
+    </MudItem>
+</MudGrid>

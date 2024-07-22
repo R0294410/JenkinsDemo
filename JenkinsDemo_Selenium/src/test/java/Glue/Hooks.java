@@ -1,6 +1,7 @@
 package Glue;
 
 import Helpers.BaseUtil;
+import Helpers.TestscriptHelper;
 import io.cucumber.java.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
@@ -11,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class Hooks extends BaseUtil{
 
     private BaseUtil baseUtil;
+    private TestscriptHelper scriptHelper;
 
     public Hooks(BaseUtil baseUtil) {
         this.baseUtil = baseUtil;

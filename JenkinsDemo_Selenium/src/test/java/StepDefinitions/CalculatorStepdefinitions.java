@@ -2,6 +2,7 @@ package StepDefinitions;
 
 import Helpers.BaseUtil;
 import Helpers.CalculatorHelper;
+import Helpers.TestscriptHelper;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -19,9 +20,14 @@ import java.util.concurrent.TimeUnit;
 public class CalculatorStepdefinitions {
     WebDriver driver;
     CalculatorHelper helper;
+    TestscriptHelper scriptHelper;
 
     @Given("I navigate to the {string} page")
     public void i_navigate_to_the_page(String page) {
+        if(scriptHelper.applicationIsLaunched == false) {
+            TestscriptHelper.SetupApplicationLocally();
+        }
+
         driver = new ChromeDriver();
         BaseUtil.driver = driver;
 
@@ -59,9 +65,11 @@ public class CalculatorStepdefinitions {
     public void i_want_to_calculate_the_result() {
         driver.findElement(By.xpath("//button[@id='calcButton-=']")).click();
     }
+
     @Then("The result is {string}")
     public void the_result_is(String expectedResult) {
         String displayedResult = driver.findElement(By.xpath("//input[@id='calculationResult']")).getAttribute("value");
         Assert.assertEquals(expectedResult, displayedResult);
+        driver.close();
     }
 }

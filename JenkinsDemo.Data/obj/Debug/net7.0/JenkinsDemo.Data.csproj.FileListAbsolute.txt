@@ -9,3 +9,4 @@ C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\Jenk
 C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\refint\JenkinsDemo.Data.dll
 C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\JenkinsDemo.Data.pdb
 C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\ref\JenkinsDemo.Data.dll
+C:\Users\jbaeten\source\repos\JenkinsDemo\JenkinsDemo.Data\obj\Debug\net7.0\JenkinsDemo.Data.sourcelink.json

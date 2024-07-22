@@ -1,2 +1,6 @@
-JenkinsDemo_Selenium\AppTest.class
+Glue\Hooks.class
 Helpers\DotnetLauncherHelper.class
+Helpers\TestscriptHelper.class
+StepDefinitions\CalculatorStepdefinitions.class
+Helpers\CalculatorHelper.class
+Helpers\BaseUtil.class

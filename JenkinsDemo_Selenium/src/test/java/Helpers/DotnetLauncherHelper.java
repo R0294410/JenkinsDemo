@@ -3,7 +3,7 @@ package Helpers;
 import java.io.*;
 
 public class DotnetLauncherHelper {
-    public static void StartApplication(String args[]) {
+    public static void StartApplication() {
         String s = null;
 
         try {

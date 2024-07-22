@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/Server/obj/Debug/net7.0
+/Shared/bin/Debug/net7.0
+/Shared/obj/Debug/net7.0
+/Client/bin/Debug/net7.0
+/Server/bin/Debug/net7.0

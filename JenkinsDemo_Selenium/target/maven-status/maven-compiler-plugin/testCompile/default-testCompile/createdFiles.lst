@@ -1,5 +1,6 @@
 Glue\Hooks.class
 Helpers\DotnetLauncherHelper.class
+Helpers\PortKiller.class
 Helpers\TestscriptHelper.class
 StepDefinitions\CalculatorStepdefinitions.class
 Helpers\CalculatorHelper.class

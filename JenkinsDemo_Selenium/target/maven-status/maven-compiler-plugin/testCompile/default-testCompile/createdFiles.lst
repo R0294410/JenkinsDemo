@@ -4,4 +4,3 @@ Helpers\TestscriptHelper.class
 StepDefinitions\CalculatorStepdefinitions.class
 Helpers\CalculatorHelper.class
 Helpers\BaseUtil.class
-Runners\TestRunner.class

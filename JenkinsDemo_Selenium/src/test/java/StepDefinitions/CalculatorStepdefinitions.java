@@ -2,7 +2,6 @@ package StepDefinitions;
 
 import Helpers.BaseUtil;
 import Helpers.CalculatorHelper;
-import Helpers.DotnetLauncherHelper;
 import Helpers.TestscriptHelper;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Given;
@@ -24,9 +23,8 @@ public class CalculatorStepdefinitions {
 
     @Given("I navigate to the {string} page")
     public void i_navigate_to_the_page(String page) {
-        System.out.println("Hello startup");
         if(scriptHelper.applicationIsLaunched == false) {
-            DotnetLauncherHelper.StartApplication();
+            TestscriptHelper.SetupApplicationLocally();
         }
 
         driver = new ChromeDriver();

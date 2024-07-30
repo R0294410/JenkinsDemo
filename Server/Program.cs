@@ -21,8 +21,6 @@ else
     app.UseHsts();
 }
 
-
-
 app.UseHttpsRedirection();
 
 app.UseBlazorFrameworkFiles();
@@ -34,8 +32,5 @@ app.UseRouting();
 app.MapRazorPages();
 app.MapControllers();
 app.MapFallbackToFile("index.html");
-
-// Add endpoint to check health status
-app.MapGet("/health", () => Results.Ok("Healthy"));
 
 app.Run();

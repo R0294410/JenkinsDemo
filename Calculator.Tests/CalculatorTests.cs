@@ -12,7 +12,7 @@ namespace Calculator.Tests
         public void Dispose() { }
 
         [Theory]
-        [InlineData("4+4", "8")]
+        [InlineData("4+4", "9")]
         [InlineData("12+17", "29")]
         [InlineData("113+0", "113")]
         [InlineData("18+583", "601")]
